@@ -1,0 +1,5 @@
+#include <fcntl.h>
+
+int fd = open("test.txt", O_WRONLY)
+ft_putchar('a', fd);
+close(fd);
